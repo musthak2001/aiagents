@@ -1,0 +1,68 @@
+[
+  {
+    "role": "user",
+    "content": "what is the weather srilanka colombo"
+  },
+  {
+    "content": null,
+    "refusal": null,
+    "role": "assistant",
+    "annotations": [],
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [
+      {
+        "id": "call_wtBfU91pezQkz7N02iCg7UIV",
+        "function": {
+          "arguments": "{\"latitude\":6.9271,\"longitude\":79.8612}",
+          "name": "get_weather"
+        },
+        "type": "function"
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_wtBfU91pezQkz7N02iCg7UIV",
+    "content": "{\"time\": \"2026-02-08T13:15\", \"interval\": 900, \"temperature_2m\": 27.6, \"wind_speed_10m\": 25.6}"
+  },
+  {
+    "role": "user",
+    "content": "who won the worldcup cricket lastly?"
+  },
+  {
+    "content": "The latest ICC Cricket World Cup took place in 2023, and it was won by India. India emerged as the champions after defeating New Zealand in the final match.",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": [],
+    "audio": null,
+    "function_call": null,
+    "tool_calls": null
+  },
+  {
+    "role": "user",
+    "content": "who won fifa world cup lastly?"
+  },
+  {
+    "content": "The latest FIFA World Cup took place in 2022 in Qatar, and Argentina won the tournament. They defeated France in the final to claim their third World Cup title.",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": [],
+    "audio": null,
+    "function_call": null,
+    "tool_calls": null
+  },
+  {
+    "role": "user",
+    "content": "who won the worldcup cricket lastly?"
+  },
+  {
+    "content": "The latest ICC Cricket World Cup took place in 2023, and it was won by India. India emerged as the champions after defeating New Zealand in the final match.",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": [],
+    "audio": null,
+    "function_call": null,
+    "tool_calls": null
+  }
+]
